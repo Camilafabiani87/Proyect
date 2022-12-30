@@ -1,8 +1,8 @@
-package com.ecommerce.proyect.services.implement;
+package com.ecommerce.proyect.Services.Implement;
 
-import com.ecommerce.proyect.models.Client;
-import com.ecommerce.proyect.repositories.ClientRepository;
-import com.ecommerce.proyect.services.ClientService;
+import com.ecommerce.proyect.Models.Client;
+import com.ecommerce.proyect.Repositories.ClientRepository;
+import com.ecommerce.proyect.Services.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,4 +15,9 @@ public class ClientServiceImplement implements ClientService {
     public void saveClient(Client client) {
     clientRepository.save(client);
     }
+
+//  @Override
+//    public Client findByEmail(String email) {
+//        return clientRepository.findByEmail(email);
+//    }
 }
