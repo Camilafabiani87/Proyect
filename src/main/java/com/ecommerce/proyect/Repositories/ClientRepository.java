@@ -1,10 +1,9 @@
-package com.ecommerce.proyect.Repositories;
+package com.ecommerce.proyect.repositories;
 
 import com.ecommerce.proyect.Models.Client;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource
+import org.springframework.data.jpa.repository.JpaRepository;
+
 public interface ClientRepository extends JpaRepository<Client, Long>{
-    Client findByEmail(String email);
+
 }
