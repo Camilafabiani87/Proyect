@@ -1,5 +1,6 @@
 package com.ecommerce.proyect.DTOS;
 
+
 import com.ecommerce.proyect.Models.Client;
 
 public class ClientDTO {
@@ -9,8 +10,7 @@ public class ClientDTO {
     private String email;
     private String password;
 
-    public ClientDTO() {
-    }
+
 
     public ClientDTO(Client client) {
         this.id = client.getId();
