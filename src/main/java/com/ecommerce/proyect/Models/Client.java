@@ -1,4 +1,4 @@
-package com.ecommerce.proyect.models;
+package com.ecommerce.proyect.Models;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -6,7 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.util.Set;
 
 @Entity
 public class Client{
