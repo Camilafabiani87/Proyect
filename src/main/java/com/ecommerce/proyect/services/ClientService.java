@@ -1,7 +1,7 @@
-package com.ecommerce.proyect.Services;
+package com.ecommerce.proyect.services;
 
-import com.ecommerce.proyect.DTOS.ClientDTO;
-import com.ecommerce.proyect.Models.Client;
+import com.ecommerce.proyect.dtos.ClientDTO;
+import com.ecommerce.proyect.models.Client;
 
 import java.util.List;
 

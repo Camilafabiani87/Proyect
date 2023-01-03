@@ -1,8 +1,8 @@
-package com.ecommerce.proyect.Services.Implements;
+package com.ecommerce.proyect.services.implement;
 
-import com.ecommerce.proyect.DTOS.ClientDTO;
-import com.ecommerce.proyect.Models.Client;
-import com.ecommerce.proyect.Services.ClientService;
+import com.ecommerce.proyect.dtos.ClientDTO;
+import com.ecommerce.proyect.models.Client;
+import com.ecommerce.proyect.services.ClientService;
 import com.ecommerce.proyect.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.ecommerce.proyect.DTOS;
+package com.ecommerce.proyect.dtos;
 
 
-import com.ecommerce.proyect.Models.Client;
+import com.ecommerce.proyect.models.Client;
 
 public class ClientDTO {
     private long id;

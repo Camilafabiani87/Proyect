@@ -1,8 +1,8 @@
-package com.ecommerce.proyect.Controllers;
+package com.ecommerce.proyect.controllers;
 
-import com.ecommerce.proyect.DTOS.ClientDTO;
+import com.ecommerce.proyect.dtos.ClientDTO;
 
-import com.ecommerce.proyect.Services.ClientService;
+import com.ecommerce.proyect.services.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
