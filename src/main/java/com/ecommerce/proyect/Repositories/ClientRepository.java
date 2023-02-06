@@ -1,6 +1,6 @@
 package com.ecommerce.proyect.repositories;
 
-import com.ecommerce.proyect.Models.Client;
+import com.ecommerce.proyect.models.Client;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
